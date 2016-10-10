@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Metallophile';
+	src: url('metallophile-light.woff') format('woff');
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: 'Metallophile';
+	src: url('metallophile-medium.woff') format('woff');
+	font-weight: 400;
+}
