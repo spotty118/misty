@@ -230,7 +230,8 @@ ul li {
 /* Layout */
 
 nav {
-	background: #000 url('../img/media-tab-bottom.png') center bottom no-repeat / auto 100%;
+	background: #000 url('../img/media-tab-bottom.png') center bottom no-repeat;
+	background-size: auto 100%;
 	display: flex;
 	justify-content: center;
 	padding: 1em;
