@@ -1,0 +1,25 @@
+{
+  "name": "misty",
+  "version": "1.0.0",
+  "description": "Misty - World of Warcraft guild on Magtheridon EU",
+  "author": "Ali Zahid <ali.zahid@live.com>",
+  "license": "MIT",
+  "keywords": [
+	"misty",
+	"wow",
+	"guild",
+    "eu"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-preset-es2015": "^6.16.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}
