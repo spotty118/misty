@@ -208,58 +208,70 @@
 			<p>Looking to join Misty?</p>
 			<form action="index.html" method="post">
 				<label class="frame static">
-					<input type="text" placeholder="Character name">
+					<input type="text" name="name" placeholder="Character name" required>
 				</label>
 				<label class="frame static">
-					<input type="text" placeholder="Email">
+					<input type="email" name="email" placeholder="Email" required>
 				</label>
 				<label class="frame static">
-					<input type="text" placeholder="Armory link">
+					<input type="url" name="armory" placeholder="Armory link" required>
 				</label>
 				<label class="frame static">
-					<textarea rows="5" placeholder="Tell us a little about yourself"></textarea>
+					<textarea rows="5" name="about" placeholder="Tell us a little about yourself" required></textarea>
 				</label>
 				<p>What class do you play?</p>
 				<div class="class-selection">
 					<label class="frame">
 						<img src="assets/img/classes/death-knight.jpg">
+						<input type="radio" name="class" value="death-knight" required>
 					</label>
 					<label class="frame">
 						<img src="assets/img/classes/demon-hunter.jpg">
+						<input type="radio" name="class" value="demon-hunter" required>
 					</label>
 					<label class="frame">
 						<img src="assets/img/classes/druid.jpg">
+						<input type="radio" name="class" value="druid" required>
 					</label>
 					<label class="frame">
 						<img src="assets/img/classes/hunter.jpg">
+						<input type="radio" name="class" value="hunter" required>
 					</label>
 					<label class="frame">
 						<img src="assets/img/classes/mage.jpg">
+						<input type="radio" name="class" value="mage" required>
 					</label>
 					<label class="frame">
 						<img src="assets/img/classes/monk.jpg">
+						<input type="radio" name="class" value="monk" required>
 					</label>
 					<label class="frame">
 						<img src="assets/img/classes/paladin.jpg">
+						<input type="radio" name="class" value="paladin" required>
 					</label>
 					<label class="frame">
 						<img src="assets/img/classes/priest.jpg">
+						<input type="radio" name="class" value="priest" required>
 					</label>
 					<label class="frame">
 						<img src="assets/img/classes/rogue.jpg">
+						<input type="radio" name="class" value="rogue" required>
 					</label>
 					<label class="frame">
 						<img src="assets/img/classes/shaman.jpg">
+						<input type="radio" name="class" value="shaman" required>
 					</label>
 					<label class="frame">
 						<img src="assets/img/classes/warlock.jpg">
+						<input type="radio" name="class" value="warlock" required>
 					</label>
 					<label class="frame">
 						<img src="assets/img/classes/warrior.jpg">
+						<input type="radio" name="class" value="warrior" required>
 					</label>
 				</div>
 				<p>
-					<button type="button">Apply</button>
+					<button type="submit">Apply</button>
 				</p>
 			</form>
 		</section>
