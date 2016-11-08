@@ -1,0 +1,138 @@
+<main>
+	<section class="wrapper">
+		<p>Misty is a PvE raiding guild, currently progressing through Mythic Emerald Nightmare. We raid on Wednesdays, Fridays, and Sundays. We use <a href="https://discordapp.com/" target="_blank">Discord</a> to communicate and socialize</p>
+	</section>
+	<section class="wrapper">
+		<h2>Leadership</h2>
+		<section class="members">
+			{{#each leadership as |leader|}}
+			<article class="member">
+				<figure class="frame">
+					<img src="assets/img/portrait/{{leader.img.race}}.jpg">
+				</figure>
+				<div>
+					<h3>{{leader.name}}</h3>
+					<p>{{leader.class}}</p>
+					<p>{{leader.about}}</p>
+				</div>
+			</article>
+			{{/each}}
+		</section>
+	</section>
+	<hr>
+	<section id="members" class="wrapper">
+		<h2>Members</h2>
+		<section class="members">
+			{{#each members as |member|}}
+			<article class="member">
+				<figure class="frame">
+					<img src="assets/img/portrait/{{member.img.race}}.jpg">
+				</figure>
+				<div>
+					<h3>{{member.name}}</h3>
+					<p>{{member.class}} &#183; {{member.about}}</p>
+				</div>
+			</article>
+			{{/each}}
+		</section>
+	</section>
+	<hr>
+	<section id="progress" class="wrapper">
+		<h2>Progress</h2>
+		{{#each progression as |raid|}}
+		<h3>{{raid.name}}</h3>
+		<section class="progress">
+			{{#each raid.progress as |difficulty|}}
+			<article>
+				<h4>{{difficulty.difficulty}}</h4>
+				<table>
+				{{#each difficulty.bosses as |boss|}}
+					<tr>
+						<td>{{boss.name}}</td>
+						{{#if boss.defeated}}
+						<td class="done">&#10004;</td>
+						{{else}}
+						<td>&#10008;</td>
+						{{/if}}
+					</tr>
+				{{/each}}
+				</table>
+			</article>
+			{{/each}}
+		</section>
+		{{/each}}
+	</section>
+	<hr>
+	<section id="apply" class="wrapper">
+		<h2>Apply</h2>
+		<p>Looking to join Misty?</p>
+		<form action="index.html" method="post">
+			<label class="frame static">
+				<input type="text" name="name" placeholder="Character name" required>
+			</label>
+			<label class="frame static">
+				<input type="email" name="email" placeholder="Email" required>
+			</label>
+			<label class="frame static">
+				<input type="url" name="armory" placeholder="Armory link" required>
+			</label>
+			<label class="frame static">
+				<textarea rows="5" name="about" placeholder="Tell us a little about yourself" required></textarea>
+			</label>
+			<p>What class do you play?</p>
+			<div class="class-selection">
+				<label class="frame">
+					<img src="assets/img/class/death-knight.jpg">
+					<input type="radio" name="class" value="death-knight" required>
+				</label>
+				<label class="frame">
+					<img src="assets/img/class/demon-hunter.jpg">
+					<input type="radio" name="class" value="demon-hunter" required>
+				</label>
+				<label class="frame">
+					<img src="assets/img/class/druid.jpg">
+					<input type="radio" name="class" value="druid" required>
+				</label>
+				<label class="frame">
+					<img src="assets/img/class/hunter.jpg">
+					<input type="radio" name="class" value="hunter" required>
+				</label>
+				<label class="frame">
+					<img src="assets/img/class/mage.jpg">
+					<input type="radio" name="class" value="mage" required>
+				</label>
+				<label class="frame">
+					<img src="assets/img/class/monk.jpg">
+					<input type="radio" name="class" value="monk" required>
+				</label>
+				<label class="frame">
+					<img src="assets/img/class/paladin.jpg">
+					<input type="radio" name="class" value="paladin" required>
+				</label>
+				<label class="frame">
+					<img src="assets/img/class/priest.jpg">
+					<input type="radio" name="class" value="priest" required>
+				</label>
+				<label class="frame">
+					<img src="assets/img/class/rogue.jpg">
+					<input type="radio" name="class" value="rogue" required>
+				</label>
+				<label class="frame">
+					<img src="assets/img/class/shaman.jpg">
+					<input type="radio" name="class" value="shaman" required>
+				</label>
+				<label class="frame">
+					<img src="assets/img/class/warlock.jpg">
+					<input type="radio" name="class" value="warlock" required>
+				</label>
+				<label class="frame">
+					<img src="assets/img/class/warrior.jpg">
+					<input type="radio" name="class" value="warrior" required>
+				</label>
+			</div>
+			<p>
+				<button type="submit">Apply</button>
+			</p>
+		</form>
+	</section>
+</main>

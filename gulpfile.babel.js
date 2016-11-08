@@ -1,3 +1,6 @@
+import fs from 'fs'
+
+import Handlebars from 'handlebars'
 import gulp from 'gulp'
 
 import livereload from 'gulp-livereload'
@@ -9,6 +12,8 @@ import clean from 'gulp-clean-css'
 import babel from 'gulp-babel'
 import concat from 'gulp-concat'
 import uglify from 'gulp-uglify'
+
+import data from './src/data.json'
 
 gulp.task('stylesheets', () => {
 	return gulp.src('./src/stylesheets/*.scss')
@@ -29,10 +34,39 @@ gulp.task('scripts', () => {
 		.pipe(livereload())
 })
 
+gulp.task('templates', () => {
+	let loadTemplate = (name) => {
+		return new Promise(resolve => {
+			fs.readFile(`./src/templates/${name}.hbs`, {
+				encoding: 'utf-8'
+			}, (err, template) => {
+				resolve({
+					name: name,
+					template: template
+				})
+			})
+		})
+	}
+
+	Promise.all([
+		loadTemplate('nav'),
+		loadTemplate('header'),
+		loadTemplate('main'),
+		loadTemplate('footer'),
+	])
+		.then(templates => templates.forEach(template => Handlebars.registerPartial(template.name, template.template)))
+		.then(() => loadTemplate('layout'))
+		.then(layout => Handlebars.compile(layout.template))
+		.then(template => fs.writeFileSync('./public/index.html', template(data)))
+		.catch(e => console.error(e))
+})
+
 gulp.task('default', () => {
 	livereload.listen()
 
 	gulp.watch('./public/index.html', [() => livereload()])
+	gulp.watch(['./src/templates/*.hbs', './src/data.json'], ['templates'])
+
 	gulp.watch('./src/stylesheets/*.scss', ['stylesheets'])
 	gulp.watch('./src/scripts/*.js', ['scripts'])
 })

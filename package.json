@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "Misty - World of Warcraft guild on Magtheridon EU",
   "author": "Ali Zahid <ali.zahid@live.com>",
+  "repository": "https://github.com/alizahid/misty.git",
   "license": "MIT",
   "keywords": [
-	"misty",
-	"wow",
-	"guild",
+    "misty",
+    "wow",
+    "guild",
     "eu"
   ],
   "devDependencies": {
@@ -20,6 +21,7 @@
     "gulp-concat": "^2.6.0",
     "gulp-livereload": "^3.8.1",
     "gulp-sass": "^2.3.2",
-    "gulp-uglify": "^2.0.0"
+    "gulp-uglify": "^2.0.0",
+    "handlebars": "^4.0.5"
   }
 }
