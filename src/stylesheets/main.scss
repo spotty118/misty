@@ -13,7 +13,7 @@
 }
 
 html {
-	background: $background url('../img/repeat-bg.jpg');
+	background: $background url('../img/interface/repeat-bg.jpg');
 }
 
 body {
@@ -49,7 +49,7 @@ form {
 
 	input,
 	textarea {
-		background: url('../img/repeat-bg-media.jpg') 15% 0 no-repeat;
+		background: url('../img/interface/repeat-bg-media.jpg') 15% 0 no-repeat;
 		border: none;
 		color: $white;
 		font: inherit;
@@ -91,7 +91,7 @@ form {
 
 		.left,
 		.left:before {
-			background-image: url('../img/button-left.png');
+			background-image: url('../img/interface/button-left.png');
 			background-size: 100% 100%;
 			height: 100%;
 			left: 0;
@@ -101,7 +101,7 @@ form {
 		}
 
 		.left:before {
-			background-image: url('../img/button-left-hover.png');
+			background-image: url('../img/interface/button-left-hover.png');
 			content: '';
 			opacity: 0;
 			transition: opacity 400ms;
@@ -109,7 +109,7 @@ form {
 
 		.middle,
 		.middle:before {
-			background-image: url('../img/button-middle.png');
+			background-image: url('../img/interface/button-middle.png');
 			background-repeat: repeat-x;
 			background-size: auto 100%;
 			height: 100%;
@@ -120,7 +120,7 @@ form {
 		}
 
 		.middle:before {
-			background-image: url('../img/button-middle-hover.png');
+			background-image: url('../img/interface/button-middle-hover.png');
 			content: '';
 			left: 0;
 			opacity: 0;
@@ -131,7 +131,7 @@ form {
 
 		.right,
 		.right:before {
-			background-image: url('../img/button-right.png');
+			background-image: url('../img/interface/button-right.png');
 			background-size: 100% 100%;
 			height: 100%;
 			right: 0;
@@ -141,7 +141,7 @@ form {
 		}
 
 		.right:before {
-			background-image: url('../img/button-right-hover.png');
+			background-image: url('../img/interface/button-right-hover.png');
 			content: '';
 			opacity: 0;
 			transition: opacity 400ms;
@@ -149,7 +149,7 @@ form {
 
 		.light,
 		.light:before {
-			background: url('../img/button-light.png') no-repeat;
+			background: url('../img/interface/button-light.png') no-repeat;
 			background-size: 100% 100%;
 			height: 7.5em;
 			position: absolute;
@@ -208,7 +208,7 @@ h3 {
 }
 
 hr {
-	background: url('../img/section-divider-sprite.png') 50% 0;
+	background: url('../img/interface/section-divider-sprite.png') 50% 0;
 	background-size: auto 200%;
 	border: none;
 	height: 6em;
@@ -251,7 +251,7 @@ ul {
 // layout
 
 nav {
-	background: $background url('../img/media-tab-bottom.png') center bottom no-repeat;
+	background: $background url('../img/interface/media-tab-bottom.png') center bottom no-repeat;
 	background-size: auto 100%;
 	display: flex;
 	justify-content: center;
@@ -300,7 +300,7 @@ footer {
 	}
 
 	a {
-		background: url('../img/social-icon-sprite.png');
+		background: url('../img/interface/social-icon-sprite.png');
 		background-size: 200% 700%;
 		display: block;
 		height: 3.75rem;
