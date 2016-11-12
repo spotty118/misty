@@ -13,8 +13,6 @@ import babel from 'gulp-babel'
 import concat from 'gulp-concat'
 import uglify from 'gulp-uglify'
 
-import data from './src/data.json'
-
 gulp.task('stylesheets', () => {
 	return gulp.src('./src/stylesheets/*.scss')
 		.pipe(sass.sync().on('error', sass.logError))
@@ -35,10 +33,10 @@ gulp.task('scripts', () => {
 })
 
 gulp.task('templates', () => {
-	let loadTemplate = (name) => {
+	const load = (name) => {
 		return new Promise(resolve => {
 			fs.readFile(`./src/templates/${name}.hbs`, {
-				encoding: 'utf-8'
+				encoding: 'utf8'
 			}, (err, template) => {
 				resolve({
 					name: name,
@@ -48,20 +46,27 @@ gulp.task('templates', () => {
 		})
 	}
 
-	Promise.all([
-		loadTemplate('nav'),
-		loadTemplate('header'),
-		loadTemplate('main'),
-		loadTemplate('footer'),
-	])
-		.then(templates => templates.forEach(template => Handlebars.registerPartial(template.name, template.template)))
-		.then(() => loadTemplate('layout'))
-		.then(layout => Handlebars.compile(layout.template))
-		.then(template => fs.writeFileSync('./public/index.html', template(data)))
-		.catch(e => console.error(e))
+	fs.readFile('./src/data.json', {
+		encoding: 'utf8'
+	}, (err, data) => {
+		let requests = [
+			load('nav'),
+			load('header'),
+			load('main'),
+			load('footer'),
+		]
+
+		Promise.all(requests)
+			.then(templates => templates.forEach(template => Handlebars.registerPartial(template.name, template.template)))
+			.then(() => load('layout'))
+			.then(layout => Handlebars.compile(layout.template))
+			.then(template => fs.writeFileSync('./public/index.html', template(JSON.parse(data))))
+			.then(livereload())
+			.catch(e => console.error(e))
+	})
 })
 
-gulp.task('default', () => {
+gulp.task('default', ['templates', 'stylesheets', 'scripts'], () => {
 	livereload.listen()
 
 	gulp.watch('./public/index.html', [() => livereload()])
