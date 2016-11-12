@@ -1,9 +1,10 @@
 <main>
 	<section class="wrapper">
-		<p>Misty is a PvE raiding guild, currently progressing through Mythic Emerald Nightmare. We raid on Wednesdays, Fridays, and Sundays. We use <a href="https://discordapp.com/" target="_blank">Discord</a> to communicate and socialize</p>
+		<p>Misty is a PvE raiding guild, currently progressing through Mythic Emerald Nightmare and Heroic Trial of Valor</p>
+		<p>We raid on Wednesdays, Fridays, and Sundays. We use <a href="https://discordapp.com/" target="_blank">Discord</a> to communicate and socialize</p>
 	</section>
 	<section class="wrapper">
-		<h2>Leadership</h2>
+		<h2>Council</h2>
 		<section class="members">
 			{{#each leadership as |leader|}}
 			<article class="member">
@@ -46,7 +47,7 @@
 			<article>
 				<h4>{{difficulty.difficulty}}</h4>
 				<table>
-				{{#each difficulty.bosses as |boss|}}
+					{{#each difficulty.bosses as |boss|}}
 					<tr>
 						<td>{{boss.name}}</td>
 						{{#if boss.defeated}}
@@ -55,7 +56,7 @@
 						<td>&#10008;</td>
 						{{/if}}
 					</tr>
-				{{/each}}
+					{{/each}}
 				</table>
 			</article>
 			{{/each}}
