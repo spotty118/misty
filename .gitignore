@@ -5,7 +5,6 @@
 node_modules
 
 # Output
-
 public/assets/css/main.css
 public/assets/js/main.js
 public/index.html
