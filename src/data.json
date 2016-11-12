@@ -7,16 +7,7 @@
       "race": "blood-elf",
       "class": "priest"
     },
-    "about": "Quisque commodo tristique enim"
-  }, {
-    "name": "Darthhr",
-    "race": "Pandaren",
-    "class": "Hunter",
-    "img": {
-      "race": "pandaren",
-      "class": "hunter"
-    },
-    "about": "Quisque commodo tristique enim"
+    "about": "Beware the Dark Side of the Moon"
   }, {
     "name": "Dòcs",
     "race": "Blood Elf",
@@ -34,7 +25,7 @@
       "race": "troll",
       "class": "druid"
     },
-    "about": "Quisque commodo tristique enim"
+    "about": "Lord of the Legendary"
   }, {
     "name": "Hubbìe",
     "race": "Blood Elf",
@@ -80,7 +71,7 @@
       "race": "goblin",
       "class": "mage"
     },
-    "about": "Quisque"
+    "about": "Damage"
   }, {
     "name": "Burbot",
     "race": "Troll",
@@ -107,7 +98,7 @@
       "race": "goblin",
       "class": "death-knight"
     },
-    "about": "Quisque"
+    "about": "Damage"
   }, {
     "name": "Drioline",
     "race": "Blood Elf",
@@ -125,7 +116,7 @@
       "race": "blood-elf",
       "class": "mage"
     },
-    "about": "Quisque"
+    "about": "Damage"
   }, {
     "name": "Elledh",
     "race": "Orc",
@@ -134,7 +125,7 @@
       "race": "orc",
       "class": "mage"
     },
-    "about": "Quisque"
+    "about": "Damage"
   }, {
     "name": "Faenya",
     "race": "Blood Elf",
@@ -143,7 +134,7 @@
       "race": "blood-elf",
       "class": "warlock"
     },
-    "about": "Quisque"
+    "about": "Damage"
   }, {
     "name": "Jalalx",
     "race": "Blood Elf",
@@ -152,7 +143,7 @@
       "race": "blood-elf",
       "class": "monk"
     },
-    "about": "Quisque"
+    "about": "Damage"
   }, {
     "name": "Jinxet",
     "race": "Goblin",
@@ -161,7 +152,7 @@
       "race": "goblin",
       "class": "mage"
     },
-    "about": "Quisque"
+    "about": "Damage"
   }, {
     "name": "Makhir",
     "race": "Blood Elf",
@@ -170,7 +161,7 @@
       "race": "blood-elf",
       "class": "paladin"
     },
-    "about": "Quisque"
+    "about": "Healer"
   }, {
     "name": "Meatspin",
     "race": "Orc",
@@ -179,7 +170,7 @@
       "race": "orc",
       "class": "warrior"
     },
-    "about": "Quisque"
+    "about": "Damage"
   }, {
     "name": "Ohjezzi",
     "race": "Blood Elf",
@@ -188,7 +179,7 @@
       "race": "blood-elf",
       "class": "hunter"
     },
-    "about": "Quisque"
+    "about": "Damage"
   }, {
     "name": "Ozzidrop",
     "race": "Blood Elf",
@@ -197,7 +188,7 @@
       "race": "blood-elf",
       "class": "demon-hunter"
     },
-    "about": "Quisque"
+    "about": "Damage"
   }, {
     "name": "Puffosaurus",
     "race": "Goblin",
@@ -206,7 +197,7 @@
       "race": "goblin",
       "class": "shaman"
     },
-    "about": "Quisque"
+    "about": "Healer / Damage"
   }, {
     "name": "Reanal",
     "race": "Undead",
@@ -215,7 +206,7 @@
       "race": "undead",
       "class": "priest"
     },
-    "about": "Quisque"
+    "about": "Damage"
   }, {
     "name": "Scoobzious",
     "race": "Blood Elf",
@@ -233,7 +224,7 @@
       "race": "tauren",
       "class": "druid"
     },
-    "about": "Quisque"
+    "about": "Tank"
   }, {
     "name": "Zkygge",
     "race": "Orc",
@@ -242,9 +233,36 @@
       "race": "orc",
       "class": "hunter"
     },
-    "about": "Quisque"
+    "about": "Damage"
   }],
   "progression": [{
+    "name": "Trial of Valor",
+    "progress": [{
+      "difficulty": "heroic",
+      "bosses": [{
+        "name": "Odyn",
+        "defeated": false
+      }, {
+        "name": "Guarm",
+        "defeated": false
+      }, {
+        "name": "Helya",
+        "defeated": false
+      }]
+    }, {
+      "difficulty": "normal",
+      "bosses": [{
+        "name": "Odyn",
+        "defeated": true
+      }, {
+        "name": "Guarm",
+        "defeated": true
+      }, {
+        "name": "Helya",
+        "defeated": true
+      }]
+    }]
+  }, {
     "name": "Emerald Nightmare",
     "progress": [{
       "difficulty": "mythic",
