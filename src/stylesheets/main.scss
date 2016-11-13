@@ -368,6 +368,18 @@ footer {
 
 		p {
 			margin: 0.5em 0 0;
+
+			&.roles {
+				display: flex;
+
+				span {
+					&:not(:first-child) {
+						&:before {
+							content: '\a0\b7\a0';
+						}
+					}
+				}
+			}
 		}
 	}
 }

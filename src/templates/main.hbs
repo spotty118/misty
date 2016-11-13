@@ -13,8 +13,14 @@
 				</figure>
 				<div>
 					<h3>{{leader.name}}</h3>
-					<p>{{leader.class}}</p>
 					<p>{{leader.about}}</p>
+					{{#if leader.roles}}
+					<p class="roles">
+						{{#each leader.roles as |role|}}
+							<span>{{role}}</span>
+						{{/each}}
+					</p>
+					{{/if}}
 				</div>
 			</article>
 			{{/each}}
