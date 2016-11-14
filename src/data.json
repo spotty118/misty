@@ -7,7 +7,11 @@
       "race": "blood-elf",
       "class": "priest"
     },
-    "about": "Beware the Dark Side of the Moon"
+    "about": "Beware the Dark Side of the Moon",
+    "roles": [
+      "Council leader",
+      "Main healer"
+    ]
   }, {
     "name": "Dòcs",
     "race": "Blood Elf",
@@ -16,7 +20,10 @@
       "race": "blood-elf",
       "class": "demon-hunter"
     },
-    "about": "Quisque commodo tristique enim"
+    "about": "Council member",
+    "roles": [
+      "Damage"
+    ]
   }, {
     "name": "Hrstarlord",
     "race": "Troll",
@@ -25,16 +32,10 @@
       "race": "troll",
       "class": "druid"
     },
-    "about": "Lord of the Legendary"
-  }, {
-    "name": "Hubbìe",
-    "race": "Blood Elf",
-    "class": "Death Knight",
-    "img": {
-      "race": "blood-elf",
-      "class": "death-knight"
-    },
-    "about": "Quisque"
+    "about": "Lord of the Legendary",
+    "roles": [
+      "Main healer"
+    ]
   }, {
     "name": "Leejama",
     "race": "Troll",
@@ -43,7 +44,10 @@
       "race": "troll",
       "class": "hunter"
     },
-    "about": "Quisque"
+    "about": "Council member",
+    "roles": [
+      "Damage"
+    ]
   }, {
     "name": "Thagram",
     "race": "Blood Elf",
@@ -52,7 +56,38 @@
       "race": "blood-elf",
       "class": "hunter"
     },
-    "about": "Quisque commodo tristique enim"
+    "about": "Council member",
+    "roles": [
+      "Damage"
+    ]
+  }],
+  "members": [{
+    "name": "Makhir",
+    "race": "Blood Elf",
+    "class": "Paladin",
+    "img": {
+      "race": "blood-elf",
+      "class": "paladin"
+    },
+    "about": "Main healer"
+  }, {
+    "name": "Puffosaurus",
+    "race": "Goblin",
+    "class": "Shaman",
+    "img": {
+      "race": "goblin",
+      "class": "shaman"
+    },
+    "about": "Main healer"
+  }, {
+    "name": "Thooto",
+    "race": "Tauren",
+    "class": "Druid",
+    "img": {
+      "race": "tauren",
+      "class": "druid"
+    },
+    "about": "Main tank"
   }, {
     "name": "Xisiri",
     "race": "Blood Elf",
@@ -61,9 +96,8 @@
       "race": "blood-elf",
       "class": "paladin"
     },
-    "about": "Quisque"
-  }],
-  "members": [{
+    "about": "Main tank"
+  }, {
     "name": "Blyzza",
     "race": "Goblin",
     "class": "Mage",
@@ -80,16 +114,7 @@
       "race": "troll",
       "class": "druid"
     },
-    "about": "Quisque"
-  }, {
-    "name": "Carzim",
-    "race": "Blood Elf",
-    "class": "Rogue",
-    "img": {
-      "race": "blood-elf",
-      "class": "rogue"
-    },
-    "about": "Quisque"
+    "about": "Damage"
   }, {
     "name": "Decs",
     "race": "Goblin",
@@ -107,7 +132,7 @@
       "race": "blood-elf",
       "class": "paladin"
     },
-    "about": "Quisque"
+    "about": "Damage"
   }, {
     "name": "Dunhillblue",
     "race": "Blood Elf",
@@ -136,6 +161,15 @@
     },
     "about": "Damage"
   }, {
+    "name": "Hubbìe",
+    "race": "Blood Elf",
+    "class": "Death Knight",
+    "img": {
+      "race": "blood-elf",
+      "class": "death-knight"
+    },
+    "about": "Damage"
+  }, {
     "name": "Jalalx",
     "race": "Blood Elf",
     "class": "Monk",
@@ -153,15 +187,6 @@
       "class": "mage"
     },
     "about": "Damage"
-  }, {
-    "name": "Makhir",
-    "race": "Blood Elf",
-    "class": "Paladin",
-    "img": {
-      "race": "blood-elf",
-      "class": "paladin"
-    },
-    "about": "Healer"
   }, {
     "name": "Meatspin",
     "race": "Orc",
@@ -190,15 +215,6 @@
     },
     "about": "Damage"
   }, {
-    "name": "Puffosaurus",
-    "race": "Goblin",
-    "class": "Shaman",
-    "img": {
-      "race": "goblin",
-      "class": "shaman"
-    },
-    "about": "Healer / Damage"
-  }, {
     "name": "Reanal",
     "race": "Undead",
     "class": "Priest",
@@ -215,16 +231,7 @@
       "race": "blood-elf",
       "class": "rogue"
     },
-    "about": "Quisque"
-  }, {
-    "name": "Thooto",
-    "race": "Tauren",
-    "class": "Druid",
-    "img": {
-      "race": "tauren",
-      "class": "druid"
-    },
-    "about": "Tank"
+    "about": "Damage"
   }, {
     "name": "Zkygge",
     "race": "Orc",
