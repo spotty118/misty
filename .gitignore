@@ -8,3 +8,7 @@ node_modules
 public/assets/css/main.css
 public/assets/js/main.js
 public/index.html
+
+# Scripts
+scripts/bin/guild
+scripts/guild.js

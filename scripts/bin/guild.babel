@@ -1,0 +1,76 @@
+#!/usr/bin/env node
+
+import yargs from 'yargs'
+
+import Guild from '../guild'
+
+const args = yargs
+	.usage('$0 [args]')
+	.option('name', {
+		default: 'Misty',
+		describe: 'Guild name',
+		type: 'string'
+	})
+	.option('realm', {
+		default: 'Magtheridon',
+		describe: 'Realm name',
+		type: 'string'
+	})
+	.option('server', {
+		default: 'EU',
+		describe: 'Server -- EU, US, etc.',
+		type: 'string'
+	})
+	.option('ranks', {
+		default: [
+			0, 1, 2, 3
+		],
+		describe: 'Which ranks to fetch from the Armory',
+		type: 'array'
+	})
+	.option('leadership', {
+		default: [
+			0, 1
+		],
+		describe: 'Which ranks are leaders?',
+		type: 'array'
+	})
+	.option('pages', {
+		default: 1,
+		describe: 'How many pages does your desired roster span on',
+		type: 'number'
+	})
+	.option('sort', {
+		default: 'rank',
+		describe: 'Sort by `name` or `rank`',
+		type: 'string'
+	})
+	.option('about', {
+		default: false,
+		describe: 'Include `about` field',
+		type: 'boolean'
+	})
+	.option('rank', {
+		default: false,
+		describe: 'Include `rank` field',
+		type: 'boolean'
+	})
+	.option('images', {
+		default: false,
+		describe: 'Include hyphenated race and class',
+		type: 'boolean'
+	})
+	.option('portraits', {
+		default: false,
+		describe: 'Include live portraits from individual Armory link',
+		type: 'boolean'
+	})
+	.option('pretty', {
+		default: false,
+		describe: 'Pretty print JSON',
+		type: 'boolean'
+	})
+	.help('help')
+	.argv
+
+Guild(args)
