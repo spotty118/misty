@@ -349,42 +349,6 @@ footer {
 	max-width: 90%;
 }
 
-.member {
-	align-items: center;
-	display: flex;
-	margin: 2em auto;
-	text-align: left;
-	max-width: 40em;
-
-	figure {
-		flex: 0 0 5em;
-		margin-right: 1em;
-	}
-
-	div {
-		h3 {
-			margin: 0;
-		}
-
-		p {
-			margin: 0.5em 0 0;
-
-			&.roles {
-				display: flex;
-
-				span {
-					&:not(:first-child) {
-						&:before {
-							content: '\a0\b7\a0';
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
 .members {
 	display: flex;
 	flex-wrap: wrap;
@@ -392,15 +356,42 @@ footer {
 	max-width: 40em;
 
 	.member {
-		flex: 0 0 calc(50% - 2em);
-		margin: 1em 0;
+		align-items: center;
+		display: flex;
+		flex: 0 1 calc(50% - 2em);
+		margin: 2em auto;
+		text-align: left;
 
 		&:nth-child(even) {
 			margin-left: 2em;
 		}
 
-		p {
-			font-size: 1rem;
+		figure {
+			flex: 0 0 5em;
+			margin-right: 1em;
+		}
+
+		div {
+			h3 {
+				margin: 0;
+			}
+
+			p {
+				font-size: 1rem;
+				margin: 0.5em 0 0;
+
+				&.roles {
+					display: flex;
+
+					span {
+						&:not(:first-child) {
+							&:before {
+								content: '\a0\b7\a0';
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 }
