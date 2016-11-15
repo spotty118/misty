@@ -9,11 +9,14 @@
 			{{#each leadership as |leader|}}
 			<article class="member">
 				<figure class="frame">
-					<img src="assets/img/portrait/{{leader.img.race}}.jpg">
+					<img src="{{leader.portrait}}">
 				</figure>
 				<div>
 					<h3>{{leader.name}}</h3>
+					<p>{{leader.race}} {{leader.class}}</p>
+					{{#if leader.about}}
 					<p>{{leader.about}}</p>
+					{{/if}}
 					{{#if leader.roles}}
 					<p class="roles">
 						{{#each leader.roles as |role|}}
@@ -33,11 +36,11 @@
 			{{#each members as |member|}}
 			<article class="member">
 				<figure class="frame">
-					<img src="assets/img/portrait/{{member.img.race}}.jpg">
+					<img src="{{member.portrait}}">
 				</figure>
 				<div>
 					<h3>{{member.name}}</h3>
-					<p>{{member.class}} &#183; {{member.about}}</p>
+					<p>{{member.race}} {{member.class}} &#183; {{member.about}}</p>
 				</div>
 			</article>
 			{{/each}}

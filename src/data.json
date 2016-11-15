@@ -3,10 +3,7 @@
     "name": "Moonbeam",
     "race": "Blood Elf",
     "class": "Priest",
-    "img": {
-      "race": "blood-elf",
-      "class": "priest"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/111/126122351-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
     "about": "Beware the Dark Side of the Moon",
     "roles": [
       "Council leader",
@@ -16,11 +13,7 @@
     "name": "Dòcs",
     "race": "Blood Elf",
     "class": "Demon Hunter",
-    "img": {
-      "race": "blood-elf",
-      "class": "demon-hunter"
-    },
-    "about": "Council member",
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/246/137669110-avatar.jpg?alt=/wow/static/images/2d/avatar/class/12-10-1.jpg",
     "roles": [
       "Damage"
     ]
@@ -28,10 +21,7 @@
     "name": "Hrstarlord",
     "race": "Troll",
     "class": "Druid",
-    "img": {
-      "race": "troll",
-      "class": "druid"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/210/120753106-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-0.jpg",
     "about": "Lord of the Legendary",
     "roles": [
       "Main healer"
@@ -40,11 +30,7 @@
     "name": "Leejama",
     "race": "Troll",
     "class": "Hunter",
-    "img": {
-      "race": "troll",
-      "class": "hunter"
-    },
-    "about": "Council member",
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/128/121898624-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-0.jpg",
     "roles": [
       "Damage"
     ]
@@ -52,11 +38,7 @@
     "name": "Thagram",
     "race": "Blood Elf",
     "class": "Hunter",
-    "img": {
-      "race": "blood-elf",
-      "class": "hunter"
-    },
-    "about": "Council member",
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/84/117196116-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
     "roles": [
       "Damage"
     ]
@@ -65,181 +47,121 @@
     "name": "Makhir",
     "race": "Blood Elf",
     "class": "Paladin",
-    "img": {
-      "race": "blood-elf",
-      "class": "paladin"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/16/117281040-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
     "about": "Main healer"
   }, {
     "name": "Puffosaurus",
     "race": "Goblin",
     "class": "Shaman",
-    "img": {
-      "race": "goblin",
-      "class": "shaman"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/73/122304073-avatar.jpg?alt=/wow/static/images/2d/avatar/race/9-1.jpg",
     "about": "Main healer"
   }, {
     "name": "Thooto",
     "race": "Tauren",
     "class": "Druid",
-    "img": {
-      "race": "tauren",
-      "class": "druid"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/199/117241031-avatar.jpg?alt=/wow/static/images/2d/avatar/race/6-0.jpg",
     "about": "Main tank"
   }, {
     "name": "Xisiri",
     "race": "Blood Elf",
     "class": "Paladin",
-    "img": {
-      "race": "blood-elf",
-      "class": "paladin"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/45/117247789-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
     "about": "Main tank"
   }, {
     "name": "Blyzza",
     "race": "Goblin",
     "class": "Mage",
-    "img": {
-      "race": "goblin",
-      "class": "mage"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/217/129727449-avatar.jpg?alt=/wow/static/images/2d/avatar/race/9-1.jpg",
     "about": "Damage"
   }, {
     "name": "Burbot",
     "race": "Troll",
     "class": "Druid",
-    "img": {
-      "race": "troll",
-      "class": "druid"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/35/118308643-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-0.jpg",
     "about": "Damage"
   }, {
     "name": "Decs",
     "race": "Goblin",
     "class": "Death Knight",
-    "img": {
-      "race": "goblin",
-      "class": "death-knight"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/73/132130889-avatar.jpg?alt=/wow/static/images/2d/avatar/class/6-0.jpg",
     "about": "Damage"
   }, {
     "name": "Drioline",
     "race": "Blood Elf",
     "class": "Paladin",
-    "img": {
-      "race": "blood-elf",
-      "class": "paladin"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/145/137094545-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
     "about": "Damage"
   }, {
     "name": "Dunhillblue",
     "race": "Blood Elf",
     "class": "Mage",
-    "img": {
-      "race": "blood-elf",
-      "class": "mage"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/88/138784344-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
     "about": "Damage"
   }, {
     "name": "Elledh",
     "race": "Orc",
     "class": "Mage",
-    "img": {
-      "race": "orc",
-      "class": "mage"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/113/137153393-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-0.jpg",
     "about": "Damage"
   }, {
     "name": "Faenya",
     "race": "Blood Elf",
     "class": "Warlock",
-    "img": {
-      "race": "blood-elf",
-      "class": "warlock"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/71/117215559-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
     "about": "Damage"
   }, {
     "name": "Hubbìe",
     "race": "Blood Elf",
     "class": "Death Knight",
-    "img": {
-      "race": "blood-elf",
-      "class": "death-knight"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/151/126119319-avatar.jpg?alt=/wow/static/images/2d/avatar/class/6-0.jpg",
     "about": "Damage"
   }, {
     "name": "Jalalx",
     "race": "Blood Elf",
     "class": "Monk",
-    "img": {
-      "race": "blood-elf",
-      "class": "monk"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/153/117082009-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
     "about": "Damage"
   }, {
     "name": "Jinxet",
     "race": "Goblin",
     "class": "Mage",
-    "img": {
-      "race": "goblin",
-      "class": "mage"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/76/124093772-avatar.jpg?alt=/wow/static/images/2d/avatar/race/9-1.jpg",
     "about": "Damage"
   }, {
     "name": "Meatspin",
     "race": "Orc",
     "class": "Warrior",
-    "img": {
-      "race": "orc",
-      "class": "warrior"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/254/138507262-avatar.jpg?alt=/wow/static/images/2d/avatar/race/2-0.jpg",
     "about": "Damage"
   }, {
     "name": "Ohjezzi",
     "race": "Blood Elf",
     "class": "Hunter",
-    "img": {
-      "race": "blood-elf",
-      "class": "hunter"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/0/118289664-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
     "about": "Damage"
   }, {
     "name": "Ozzidrop",
     "race": "Blood Elf",
     "class": "Demon Hunter",
-    "img": {
-      "race": "blood-elf",
-      "class": "demon-hunter"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/13/138951693-avatar.jpg?alt=/wow/static/images/2d/avatar/class/12-10-1.jpg",
     "about": "Damage"
   }, {
     "name": "Reanal",
     "race": "Undead",
     "class": "Priest",
-    "img": {
-      "race": "undead",
-      "class": "priest"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/107/117290859-avatar.jpg?alt=/wow/static/images/2d/avatar/race/5-0.jpg",
     "about": "Damage"
   }, {
     "name": "Scoobzious",
     "race": "Blood Elf",
     "class": "Rogue",
-    "img": {
-      "race": "blood-elf",
-      "class": "rogue"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/187/126621627-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
     "about": "Damage"
   }, {
     "name": "Zkygge",
     "race": "Orc",
     "class": "Hunter",
-    "img": {
-      "race": "orc",
-      "class": "hunter"
-    },
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/200/135275464-avatar.jpg?alt=/wow/static/images/2d/avatar/race/2-0.jpg",
     "about": "Damage"
   }],
   "progression": [{
