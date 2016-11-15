@@ -3,7 +3,7 @@ import fs from 'fs'
 import Handlebars from 'handlebars'
 import gulp from 'gulp'
 
-import livereload from 'gulp-livereload'
+import webserver from 'gulp-server-livereload'
 
 import sass from 'gulp-sass'
 import autoprefixer from 'gulp-autoprefixer'
@@ -20,7 +20,6 @@ gulp.task('stylesheets', () => {
 		.pipe(clean())
 		.pipe(concat('main.css'))
 		.pipe(gulp.dest('./public/assets/css/'))
-		.pipe(livereload())
 })
 
 gulp.task('scripts', () => {
@@ -29,7 +28,6 @@ gulp.task('scripts', () => {
 		.pipe(concat('main.js'))
 		.pipe(uglify())
 		.pipe(gulp.dest('./public/assets/js/'))
-		.pipe(livereload())
 })
 
 gulp.task('templates', () => {
@@ -61,15 +59,19 @@ gulp.task('templates', () => {
 			.then(() => load('layout'))
 			.then(layout => Handlebars.compile(layout.template))
 			.then(template => fs.writeFileSync('./public/index.html', template(JSON.parse(data))))
-			.then(livereload())
 			.catch(e => console.error(e))
 	})
 })
 
-gulp.task('default', ['templates', 'stylesheets', 'scripts'], () => {
-	livereload.listen()
+gulp.task('webserver', function() {
+	gulp.src('./public')
+		.pipe(webserver({
+			livereload: true,
+			open: true
+		}))
+})
 
-	gulp.watch('./public/index.html', [() => livereload()])
+gulp.task('default', ['templates', 'stylesheets', 'scripts', 'webserver'], () => {
 	gulp.watch(['./src/templates/*.hbs', './src/data.json'], ['templates'])
 
 	gulp.watch('./src/stylesheets/*.scss', ['stylesheets'])
