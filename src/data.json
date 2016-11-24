@@ -170,10 +170,10 @@
       "difficulty": "heroic",
       "bosses": [{
         "name": "Odyn",
-        "defeated": false
+        "defeated": true
       }, {
         "name": "Guarm",
-        "defeated": false
+        "defeated": true
       }, {
         "name": "Helya",
         "defeated": false
