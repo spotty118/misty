@@ -242,5 +242,8 @@
         "defeated": true
       }]
     }]
-  }]
+  }],
+  "options": {
+    "applications": false
+  }
 }
