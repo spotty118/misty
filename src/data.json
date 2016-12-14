@@ -128,6 +128,12 @@
     "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/76/124093772-avatar.jpg?alt=/wow/static/images/2d/avatar/race/9-1.jpg",
     "about": "Damage"
   }, {
+    "name": "Kilrôgg",
+    "race": "Blood Elf",
+    "class": "Mage",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/125/130328701-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
+    "about": "Damage"
+  }, {
     "name": "Meatspin",
     "race": "Orc",
     "class": "Warrior",
@@ -150,6 +156,12 @@
     "race": "Undead",
     "class": "Priest",
     "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/107/117290859-avatar.jpg?alt=/wow/static/images/2d/avatar/race/5-0.jpg",
+    "about": "Damage"
+  }, {
+    "name": "Sandone",
+    "race": "Blood Elf",
+    "class": "Paladin",
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/245/128785397-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
     "about": "Damage"
   }, {
     "name": "Scoobzious",
@@ -176,7 +188,7 @@
         "defeated": true
       }, {
         "name": "Helya",
-        "defeated": false
+        "defeated": true
       }]
     }, {
       "difficulty": "normal",
