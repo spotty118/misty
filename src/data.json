@@ -50,10 +50,10 @@
     "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/16/117281040-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
     "about": "Main healer"
   }, {
-    "name": "Puffosaurus",
-    "race": "Goblin",
+    "name": "Nerazzurri",
+    "race": "Orc",
     "class": "Shaman",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/73/122304073-avatar.jpg?alt=/wow/static/images/2d/avatar/race/9-1.jpg",
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/101/115882085-avatar.jpg?alt=/wow/static/images/2d/avatar/race/2-0.jpg",
     "about": "Main healer"
   }, {
     "name": "Thooto",
@@ -86,22 +86,16 @@
     "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/73/132130889-avatar.jpg?alt=/wow/static/images/2d/avatar/class/6-0.jpg",
     "about": "Damage"
   }, {
-    "name": "Drioline",
-    "race": "Blood Elf",
-    "class": "Paladin",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/145/137094545-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
-    "about": "Damage"
-  }, {
     "name": "Dunhillblue",
     "race": "Blood Elf",
     "class": "Mage",
     "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/88/138784344-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
     "about": "Damage"
   }, {
-    "name": "Elledh",
-    "race": "Orc",
-    "class": "Mage",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/113/137153393-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-0.jpg",
+    "name": "Elezhia",
+    "race": "Troll",
+    "class": "Shaman",
+    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/62/137407038-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-1.jpg",
     "about": "Damage"
   }, {
     "name": "Faenya",
@@ -134,12 +128,6 @@
     "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/125/130328701-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
     "about": "Damage"
   }, {
-    "name": "Meatspin",
-    "race": "Orc",
-    "class": "Warrior",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/254/138507262-avatar.jpg?alt=/wow/static/images/2d/avatar/race/2-0.jpg",
-    "about": "Damage"
-  }, {
     "name": "Ohjezzi",
     "race": "Blood Elf",
     "class": "Hunter",
@@ -162,18 +150,6 @@
     "race": "Blood Elf",
     "class": "Paladin",
     "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/245/128785397-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
-    "about": "Damage"
-  }, {
-    "name": "Scoobzious",
-    "race": "Blood Elf",
-    "class": "Rogue",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/187/126621627-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
-    "about": "Damage"
-  }, {
-    "name": "Zkygge",
-    "race": "Orc",
-    "class": "Hunter",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/200/135275464-avatar.jpg?alt=/wow/static/images/2d/avatar/race/2-0.jpg",
     "about": "Damage"
   }],
   "progression": [{
