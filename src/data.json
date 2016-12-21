@@ -86,12 +86,6 @@
     "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/73/132130889-avatar.jpg?alt=/wow/static/images/2d/avatar/class/6-0.jpg",
     "about": "Damage"
   }, {
-    "name": "Dunhillblue",
-    "race": "Blood Elf",
-    "class": "Mage",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/88/138784344-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
-    "about": "Damage"
-  }, {
     "name": "Elezhia",
     "race": "Troll",
     "class": "Shaman",
