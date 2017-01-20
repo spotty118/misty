@@ -3,7 +3,7 @@
     "name": "Moonbeam",
     "race": "Blood Elf",
     "class": "Priest",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/111/126122351-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/111/126122351-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
     "about": "Beware the Dark Side of the Moon",
     "roles": [
       "Council leader",
@@ -13,7 +13,7 @@
     "name": "Dòcs",
     "race": "Blood Elf",
     "class": "Demon Hunter",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/246/137669110-avatar.jpg?alt=/wow/static/images/2d/avatar/class/12-10-1.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/246/137669110-avatar.jpg?alt=/wow/static/images/2d/avatar/class/12-10-1.jpg",
     "roles": [
       "Damage"
     ]
@@ -21,7 +21,7 @@
     "name": "Hrstarlord",
     "race": "Troll",
     "class": "Druid",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/210/120753106-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-0.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/210/120753106-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-0.jpg",
     "about": "Lord of the Legendary",
     "roles": [
       "Main healer"
@@ -30,7 +30,7 @@
     "name": "Leejama",
     "race": "Troll",
     "class": "Hunter",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/128/121898624-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-0.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/128/121898624-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-0.jpg",
     "roles": [
       "Damage"
     ]
@@ -38,7 +38,7 @@
     "name": "Thagram",
     "race": "Blood Elf",
     "class": "Hunter",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/84/117196116-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/84/117196116-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
     "roles": [
       "Damage"
     ]
@@ -47,73 +47,73 @@
     "name": "Makhir",
     "race": "Blood Elf",
     "class": "Paladin",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/16/117281040-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/16/117281040-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
     "about": "Main healer"
   }, {
     "name": "Nerazzurri",
     "race": "Orc",
     "class": "Shaman",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/101/115882085-avatar.jpg?alt=/wow/static/images/2d/avatar/race/2-0.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/101/115882085-avatar.jpg?alt=/wow/static/images/2d/avatar/race/2-0.jpg",
     "about": "Main healer"
   }, {
     "name": "Thooto",
     "race": "Tauren",
     "class": "Druid",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/199/117241031-avatar.jpg?alt=/wow/static/images/2d/avatar/race/6-0.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/199/117241031-avatar.jpg?alt=/wow/static/images/2d/avatar/race/6-0.jpg",
     "about": "Main tank"
   }, {
     "name": "Xisiri",
     "race": "Blood Elf",
     "class": "Paladin",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/45/117247789-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/45/117247789-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
     "about": "Main tank"
   }, {
     "name": "Blyzza",
     "race": "Goblin",
     "class": "Mage",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/217/129727449-avatar.jpg?alt=/wow/static/images/2d/avatar/race/9-1.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/217/129727449-avatar.jpg?alt=/wow/static/images/2d/avatar/race/9-1.jpg",
     "about": "Damage"
   }, {
     "name": "Burbot",
     "race": "Troll",
     "class": "Druid",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/35/118308643-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-0.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/35/118308643-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-0.jpg",
     "about": "Damage"
   }, {
     "name": "Decs",
     "race": "Goblin",
     "class": "Death Knight",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/73/132130889-avatar.jpg?alt=/wow/static/images/2d/avatar/class/6-0.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/73/132130889-avatar.jpg?alt=/wow/static/images/2d/avatar/class/6-0.jpg",
     "about": "Damage"
   }, {
     "name": "Elezhia",
     "race": "Troll",
     "class": "Shaman",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/62/137407038-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-1.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/62/137407038-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-1.jpg",
     "about": "Damage"
   }, {
     "name": "Faenya",
     "race": "Blood Elf",
     "class": "Warlock",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/71/117215559-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/71/117215559-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
     "about": "Damage"
   }, {
     "name": "Hubbìe",
     "race": "Blood Elf",
     "class": "Death Knight",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/151/126119319-avatar.jpg?alt=/wow/static/images/2d/avatar/class/6-0.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/151/126119319-avatar.jpg?alt=/wow/static/images/2d/avatar/class/6-0.jpg",
     "about": "Damage"
   }, {
     "name": "Jalalx",
     "race": "Blood Elf",
     "class": "Monk",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/153/117082009-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/153/117082009-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
     "about": "Damage"
   }, {
     "name": "Jinxet",
     "race": "Goblin",
     "class": "Mage",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/76/124093772-avatar.jpg?alt=/wow/static/images/2d/avatar/race/9-1.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/76/124093772-avatar.jpg?alt=/wow/static/images/2d/avatar/race/9-1.jpg",
     "about": "Damage"
   }, {
     "name": "Kilrôgg",
@@ -125,25 +125,25 @@
     "name": "Ohjezzi",
     "race": "Blood Elf",
     "class": "Hunter",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/0/118289664-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/0/118289664-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
     "about": "Damage"
   }, {
     "name": "Ozzidrop",
     "race": "Blood Elf",
     "class": "Demon Hunter",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/13/138951693-avatar.jpg?alt=/wow/static/images/2d/avatar/class/12-10-1.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/13/138951693-avatar.jpg?alt=/wow/static/images/2d/avatar/class/12-10-1.jpg",
     "about": "Damage"
   }, {
     "name": "Reanal",
     "race": "Undead",
     "class": "Priest",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/107/117290859-avatar.jpg?alt=/wow/static/images/2d/avatar/race/5-0.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/107/117290859-avatar.jpg?alt=/wow/static/images/2d/avatar/race/5-0.jpg",
     "about": "Damage"
   }, {
     "name": "Sandone",
     "race": "Blood Elf",
     "class": "Paladin",
-    "portrait": "http://render-api-eu.worldofwarcraft.com/static-render/eu/magtheridon/245/128785397-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/245/128785397-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
     "about": "Damage"
   }],
   "progression": [{
