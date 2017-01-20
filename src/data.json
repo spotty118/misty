@@ -147,6 +147,95 @@
     "about": "Damage"
   }],
   "progression": [{
+    "name": "The Nighthold",
+    "progress": [{
+      "difficulty": "heroic",
+      "bosses": [{
+          "name": "Skorpyron",
+          "defeated": false
+        },
+        {
+          "name": "Chronomatic Anomaly",
+          "defeated": false
+        },
+        {
+          "name": "Trilliax",
+          "defeated": false
+        },
+        {
+          "name": "Spellblade Aluriel",
+          "defeated": false
+        },
+        {
+          "name": "Star Augur Etraeus",
+          "defeated": false
+        },
+        {
+          "name": "High Botanist Tel'arn",
+          "defeated": false
+        },
+        {
+          "name": "Krosus",
+          "defeated": false
+        },
+        {
+          "name": "Tichondrius",
+          "defeated": false
+        },
+        {
+          "name": "Elisande",
+          "defeated": false
+        },
+        {
+          "name": "Gul'dan",
+          "defeated": false
+        }
+      ]
+    }, {
+      "difficulty": "normal",
+      "bosses": [{
+          "name": "Skorpyron",
+          "defeated": true
+        },
+        {
+          "name": "Chronomatic Anomaly",
+          "defeated": true
+        },
+        {
+          "name": "Trilliax",
+          "defeated": true
+        },
+        {
+          "name": "Spellblade Aluriel",
+          "defeated": true
+        },
+        {
+          "name": "Star Augur Etraeus",
+          "defeated": true
+        },
+        {
+          "name": "High Botanist Tel'arn",
+          "defeated": true
+        },
+        {
+          "name": "Krosus",
+          "defeated": true
+        },
+        {
+          "name": "Tichondrius",
+          "defeated": true
+        },
+        {
+          "name": "Elisande",
+          "defeated": true
+        },
+        {
+          "name": "Gul'dan",
+          "defeated": true
+        }
+      ]
+    }]
+  }, {
     "name": "Trial of Valor",
     "progress": [{
       "difficulty": "heroic",
@@ -191,7 +280,7 @@
         "defeated": true
       }, {
         "name": "Dragons of Nightmare",
-        "defeated": false
+        "defeated": true
       }, {
         "name": "Cenarius",
         "defeated": false
