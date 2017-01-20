@@ -1,15 +1,5 @@
 {
   "leadership": [{
-    "name": "Moonbeam",
-    "race": "Blood Elf",
-    "class": "Priest",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/111/126122351-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
-    "about": "Beware the Dark Side of the Moon",
-    "roles": [
-      "Council leader",
-      "Main healer"
-    ]
-  }, {
     "name": "Dòcs",
     "race": "Blood Elf",
     "class": "Demon Hunter",
@@ -22,7 +12,6 @@
     "race": "Troll",
     "class": "Druid",
     "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/210/120753106-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-0.jpg",
-    "about": "Lord of the Legendary",
     "roles": [
       "Main healer"
     ]
@@ -33,6 +22,15 @@
     "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/128/121898624-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-0.jpg",
     "roles": [
       "Damage"
+    ]
+  }, {
+    "name": "Moonbeam",
+    "race": "Blood Elf",
+    "class": "Priest",
+    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/111/126122351-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
+    "roles": [
+      "Council leader",
+      "Main healer"
     ]
   }, {
     "name": "Thagram",
