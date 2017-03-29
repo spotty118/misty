@@ -147,10 +147,10 @@
   "progression": [{
     "name": "The Nighthold",
     "progress": [{
-      "difficulty": "heroic",
+      "difficulty": "mythic",
       "bosses": [{
           "name": "Skorpyron",
-          "defeated": false
+          "defeated": true
         },
         {
           "name": "Chronomatic Anomaly",
@@ -190,7 +190,7 @@
         }
       ]
     }, {
-      "difficulty": "normal",
+      "difficulty": "heroic",
       "bosses": [{
           "name": "Skorpyron",
           "defeated": true
@@ -272,7 +272,7 @@
         "defeated": true
       }, {
         "name": "Il'gynoth",
-        "defeated": false
+        "defeated": true
       }, {
         "name": "Ursoc",
         "defeated": true
@@ -281,10 +281,10 @@
         "defeated": true
       }, {
         "name": "Cenarius",
-        "defeated": false
+        "defeated": true
       }, {
         "name": "Xavius",
-        "defeated": false
+        "defeated": true
       }]
     }, {
       "difficulty": "heroic",
