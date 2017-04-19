@@ -154,11 +154,11 @@
         },
         {
           "name": "Chronomatic Anomaly",
-          "defeated": false
+          "defeated": true
         },
         {
           "name": "Trilliax",
-          "defeated": false
+          "defeated": true
         },
         {
           "name": "Spellblade Aluriel",
