@@ -1,380 +1,467 @@
 {
-  "leadership": [{
-    "name": "Moonbeam",
-    "race": "Blood Elf",
-    "class": "Priest",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/111/126122351-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
-    "roles": [
-      "Council leader",
-      "Main healer"
-    ]
-  }, {
-    "name": "Dòcs",
-    "race": "Blood Elf",
-    "class": "Demon Hunter",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/246/137669110-avatar.jpg?alt=/wow/static/images/2d/avatar/class/12-10-1.jpg",
-    "roles": [
-      "Damage"
-    ]
-  }, {
-    "name": "Hrstarlord",
-    "race": "Troll",
-    "class": "Druid",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/210/120753106-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-0.jpg",
-    "roles": [
-      "Main healer"
-    ]
-  }, {
-    "name": "Leejama",
-    "race": "Troll",
-    "class": "Hunter",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/128/121898624-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-0.jpg",
-    "roles": [
-      "Damage"
-    ]
-  }, {
-    "name": "Thagram",
-    "race": "Blood Elf",
-    "class": "Hunter",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/84/117196116-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
-    "roles": [
-      "Damage"
-    ]
-  }],
-  "members": [{
-    "name": "Makhir",
-    "race": "Blood Elf",
-    "class": "Paladin",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/16/117281040-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
-    "about": "Main healer"
-  }, {
-    "name": "Nerazzurri",
-    "race": "Orc",
-    "class": "Shaman",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/101/115882085-avatar.jpg?alt=/wow/static/images/2d/avatar/race/2-0.jpg",
-    "about": "Main healer"
-  }, {
-    "name": "Thooto",
-    "race": "Tauren",
-    "class": "Druid",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/199/117241031-avatar.jpg?alt=/wow/static/images/2d/avatar/race/6-0.jpg",
-    "about": "Main tank"
-  }, {
-    "name": "Xisiri",
-    "race": "Blood Elf",
-    "class": "Paladin",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/45/117247789-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
-    "about": "Main tank"
-  }, {
-    "name": "Blyzza",
-    "race": "Goblin",
-    "class": "Mage",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/217/129727449-avatar.jpg?alt=/wow/static/images/2d/avatar/race/9-1.jpg",
-    "about": "Damage"
-  }, {
-    "name": "Burbot",
-    "race": "Troll",
-    "class": "Druid",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/35/118308643-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-0.jpg",
-    "about": "Damage"
-  }, {
-    "name": "Decs",
-    "race": "Goblin",
-    "class": "Death Knight",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/73/132130889-avatar.jpg?alt=/wow/static/images/2d/avatar/class/6-0.jpg",
-    "about": "Damage"
-  }, {
-    "name": "Elezhia",
-    "race": "Troll",
-    "class": "Shaman",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/62/137407038-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-1.jpg",
-    "about": "Damage"
-  }, {
-    "name": "Faenya",
-    "race": "Blood Elf",
-    "class": "Warlock",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/71/117215559-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
-    "about": "Damage"
-  }, {
-    "name": "Hubbìe",
-    "race": "Blood Elf",
-    "class": "Death Knight",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/151/126119319-avatar.jpg?alt=/wow/static/images/2d/avatar/class/6-0.jpg",
-    "about": "Damage"
-  }, {
-    "name": "Jalalx",
-    "race": "Blood Elf",
-    "class": "Monk",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/153/117082009-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
-    "about": "Damage"
-  }, {
-    "name": "Jinxet",
-    "race": "Goblin",
-    "class": "Mage",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/76/124093772-avatar.jpg?alt=/wow/static/images/2d/avatar/race/9-1.jpg",
-    "about": "Damage"
-  }, {
-    "name": "Kilrôgg",
-    "race": "Blood Elf",
-    "class": "Mage",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/125/130328701-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
-    "about": "Damage"
-  }, {
-    "name": "Ohjezzi",
-    "race": "Blood Elf",
-    "class": "Hunter",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/0/118289664-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
-    "about": "Damage"
-  }, {
-    "name": "Ozzidrop",
-    "race": "Blood Elf",
-    "class": "Demon Hunter",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/13/138951693-avatar.jpg?alt=/wow/static/images/2d/avatar/class/12-10-1.jpg",
-    "about": "Damage"
-  }, {
-    "name": "Reanal",
-    "race": "Undead",
-    "class": "Priest",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/107/117290859-avatar.jpg?alt=/wow/static/images/2d/avatar/race/5-0.jpg",
-    "about": "Damage"
-  }, {
-    "name": "Sandone",
-    "race": "Blood Elf",
-    "class": "Paladin",
-    "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/245/128785397-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
-    "about": "Damage"
-  }],
-  "progression": [{
-    "name": "Tomb of Sargeras",
-    "progress": [{
-      "difficulty": "heroic",
-      "bosses": [{
-        "name": "Goroth",
-        "defeated": true
-      }, {
-        "name": "Demonic Inquisition",
-        "defeated": true
-      }, {
-        "name": "Harjatan",
-        "defeated": true
-      }, {
-        "name": "Mistress Sassz'ine",
-        "defeated": false
-      }, {
-        "name": "Sisters of the Moon",
-        "defeated": false
-      }, {
-        "name": "The Desolate Host",
-        "defeated": false
-      }, {
-        "name": "Maiden of Vigilance",
-        "defeated": false
-      }, {
-        "name": "Fallen Avatar",
-        "defeated": false
-      }, {
-        "name": "Kil'jaeden",
-        "defeated": false
-      }]
-    }, {
-      "difficulty": "heroic",
-      "bosses": [{
-        "name": "Goroth",
-        "defeated": true
-      }, {
-        "name": "Demonic Inquisition",
-        "defeated": true
-      }, {
-        "name": "Harjatan",
-        "defeated": true
-      }, {
-        "name": "Mistress Sassz'ine",
-        "defeated": true
-      }, {
-        "name": "Sisters of the Moon",
-        "defeated": true
-      }, {
-        "name": "The Desolate Host",
-        "defeated": true
-      }, {
-        "name": "Maiden of Vigilance",
-        "defeated": true
-      }, {
-        "name": "Fallen Avatar",
-        "defeated": true
-      }, {
-        "name": "Kil'jaeden",
-        "defeated": true
-      }]
-    }]
-  }, {
-    "name": "The Nighthold",
-    "progress": [{
-      "difficulty": "mythic",
-      "bosses": [{
-          "name": "Skorpyron",
-          "defeated": true
+  "leadership": [
+    {
+      "name": "Moonbeam",
+      "race": "Blood Elf",
+      "class": "Priest",
+      "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/111/126122351-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
+      "roles": [
+        "Council leader",
+        "Main healer"
+      ]
+    },
+    {
+      "name": "Hrstarlord",
+      "race": "Troll",
+      "class": "Druid",
+      "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/210/120753106-avatar.jpg?alt=/wow/static/images/2d/avatar/race/8-0.jpg",
+      "roles": [
+        "Main healer"
+      ]
+    },
+    {
+      "name": "Makhir",
+      "race": "Blood Elf",
+      "class": "Paladin",
+      "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/16/117281040-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-0.jpg",
+      "roles": [
+        "Main healer"
+      ]
+    },
+    {
+      "name": "Thagram",
+      "race": "Blood Elf",
+      "class": "Hunter",
+      "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/84/117196116-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
+      "roles": [
+        "Damage"
+      ]
+    },
+    {
+      "name": "Xisiri",
+      "race": "Blood Elf",
+      "class": "Paladin",
+      "portrait": "http://render-eu.worldofwarcraft.com/character/magtheridon/45/117247789-avatar.jpg?alt=/wow/static/images/2d/avatar/race/10-1.jpg",
+      "roles": [
+        "Main tank"
+      ]
+    }
+  ],
+  "members": [
+    {
+      "name": "Astrazar",
+      "race": "Blood Elf",
+      "class": "Monk",
+      "portrait": "https://render-eu.worldofwarcraft.com/character/magtheridon/61/129273917-avatar.jpg",
+      "about": "Damage"
+    },
+    {
+      "name": "Burbót",
+      "race": "Troll",
+      "class": "Shaman",
+      "portrait": "https://render-eu.worldofwarcraft.com/character/magtheridon/86/120437846-avatar.jpg",
+      "about": "Healer"
+    },
+    {
+      "name": "Decs",
+      "race": "Goblin",
+      "class": "Death Knight",
+      "portrait": "https://render-eu.worldofwarcraft.com/character/magtheridon/73/132130889-avatar.jpg",
+      "about": "Damage"
+    },
+    {
+      "name": "Dianagrande",
+      "race": "Blood Elf",
+      "class": "Warrior",
+      "portrait": "https://render-eu.worldofwarcraft.com/character/magtheridon/77/121383501-avatar.jpg",
+      "about": "Damage"
+    },
+    {
+      "name": "Faenya",
+      "race": "Blood Elf",
+      "class": "Warlock",
+      "portrait": "https://render-eu.worldofwarcraft.com/character/magtheridon/71/117215559-avatar.jpg",
+      "about": "Damage"
+    },
+    {
+      "name": "Hubbíerou",
+      "race": "Blood Elf",
+      "class": "Rogue",
+      "portrait": "https://render-eu.worldofwarcraft.com/character/magtheridon/247/128508663-avatar.jpg",
+      "about": "Damage"
+    },
+    {
+      "name": "Jalalx",
+      "race": "Blood Elf",
+      "class": "Monk",
+      "portrait": "https://render-eu.worldofwarcraft.com/character/magtheridon/153/117082009-avatar.jpg",
+      "about": "Damage"
+    },
+    {
+      "name": "Jinxet",
+      "race": "Goblin",
+      "class": "Mage",
+      "portrait": "https://render-eu.worldofwarcraft.com/character/magtheridon/76/124093772-avatar.jpg",
+      "about": "Damage"
+    },
+    {
+      "name": "Kilrôgg",
+      "race": "Blood Elf",
+      "class": "Mage",
+      "portrait": "https://render-eu.worldofwarcraft.com/character/magtheridon/125/130328701-avatar.jpg",
+      "about": "Damage"
+    },
+    {
+      "name": "Moamoran",
+      "race": "Troll",
+      "class": "Hunter",
+      "portrait": "https://render-eu.worldofwarcraft.com/character/magtheridon/249/143547129-avatar.jpg",
+      "about": "Damage"
+    },
+    {
+      "name": "Ozzidrop",
+      "race": "Blood Elf",
+      "class": "Demon Hunter",
+      "portrait": "https://render-eu.worldofwarcraft.com/character/magtheridon/13/138951693-avatar.jpg",
+      "about": "Damage"
+    },
+    {
+      "name": "Praffinstein",
+      "race": "Orc",
+      "class": "Warrior",
+      "portrait": "https://render-eu.worldofwarcraft.com/character/magtheridon/96/117064032-avatar.jpg",
+      "about": "Damage"
+    },
+    {
+      "name": "Reanal",
+      "race": "Undead",
+      "class": "Priest",
+      "portrait": "https://render-eu.worldofwarcraft.com/character/magtheridon/107/117290859-avatar.jpg",
+      "about": "Damage"
+    },
+    {
+      "name": "Sandone",
+      "race": "Blood Elf",
+      "class": "Paladin",
+      "portrait": "https://render-eu.worldofwarcraft.com/character/magtheridon/245/128785397-avatar.jpg",
+      "about": "Damage"
+    },
+    {
+      "name": "Sweetvoid",
+      "race": "Goblin",
+      "class": "Priest",
+      "portrait": "https://render-eu.worldofwarcraft.com/character/magtheridon/149/116694421-avatar.jpg",
+      "about": "Damage"
+    },
+    {
+      "name": "Thooto",
+      "race": "Tauren",
+      "class": "Druid",
+      "portrait": "https://render-eu.worldofwarcraft.com/character/magtheridon/199/117241031-avatar.jpg",
+      "about": "Main tank"
+    },
+    {
+      "name": "Umbréon",
+      "race": "Blood Elf",
+      "class": "Warlock",
+      "portrait": "https://render-eu.worldofwarcraft.com/character/magtheridon/216/115932888-avatar.jpg",
+      "about": "Damage"
+    }
+  ],
+  "progression": [
+    {
+      "name": "Tomb of Sargeras",
+      "progress": [
+        {
+          "difficulty": "heroic",
+          "bosses": [
+            {
+              "name": "Goroth",
+              "defeated": true
+            },
+            {
+              "name": "Demonic Inquisition",
+              "defeated": true
+            },
+            {
+              "name": "Harjatan",
+              "defeated": true
+            },
+            {
+              "name": "Mistress Sassz'ine",
+              "defeated": false
+            },
+            {
+              "name": "Sisters of the Moon",
+              "defeated": false
+            },
+            {
+              "name": "The Desolate Host",
+              "defeated": false
+            },
+            {
+              "name": "Maiden of Vigilance",
+              "defeated": false
+            },
+            {
+              "name": "Fallen Avatar",
+              "defeated": false
+            },
+            {
+              "name": "Kil'jaeden",
+              "defeated": false
+            }
+          ]
         },
         {
-          "name": "Chronomatic Anomaly",
-          "defeated": true
-        },
-        {
-          "name": "Trilliax",
-          "defeated": true
-        },
-        {
-          "name": "Spellblade Aluriel",
-          "defeated": false
-        },
-        {
-          "name": "Star Augur Etraeus",
-          "defeated": false
-        },
-        {
-          "name": "High Botanist Tel'arn",
-          "defeated": false
-        },
-        {
-          "name": "Krosus",
-          "defeated": false
-        },
-        {
-          "name": "Tichondrius",
-          "defeated": false
-        },
-        {
-          "name": "Elisande",
-          "defeated": false
-        },
-        {
-          "name": "Gul'dan",
-          "defeated": false
+          "difficulty": "heroic",
+          "bosses": [
+            {
+              "name": "Goroth",
+              "defeated": true
+            },
+            {
+              "name": "Demonic Inquisition",
+              "defeated": true
+            },
+            {
+              "name": "Harjatan",
+              "defeated": true
+            },
+            {
+              "name": "Mistress Sassz'ine",
+              "defeated": true
+            },
+            {
+              "name": "Sisters of the Moon",
+              "defeated": true
+            },
+            {
+              "name": "The Desolate Host",
+              "defeated": true
+            },
+            {
+              "name": "Maiden of Vigilance",
+              "defeated": true
+            },
+            {
+              "name": "Fallen Avatar",
+              "defeated": true
+            },
+            {
+              "name": "Kil'jaeden",
+              "defeated": true
+            }
+          ]
         }
       ]
-    }, {
-      "difficulty": "heroic",
-      "bosses": [{
-          "name": "Skorpyron",
-          "defeated": true
+    },
+    {
+      "name": "The Nighthold",
+      "progress": [
+        {
+          "difficulty": "mythic",
+          "bosses": [
+            {
+              "name": "Skorpyron",
+              "defeated": true
+            },
+            {
+              "name": "Chronomatic Anomaly",
+              "defeated": true
+            },
+            {
+              "name": "Trilliax",
+              "defeated": true
+            },
+            {
+              "name": "Spellblade Aluriel",
+              "defeated": false
+            },
+            {
+              "name": "Star Augur Etraeus",
+              "defeated": false
+            },
+            {
+              "name": "High Botanist Tel'arn",
+              "defeated": false
+            },
+            {
+              "name": "Krosus",
+              "defeated": false
+            },
+            {
+              "name": "Tichondrius",
+              "defeated": false
+            },
+            {
+              "name": "Elisande",
+              "defeated": false
+            },
+            {
+              "name": "Gul'dan",
+              "defeated": false
+            }
+          ]
         },
         {
-          "name": "Chronomatic Anomaly",
-          "defeated": true
-        },
-        {
-          "name": "Trilliax",
-          "defeated": true
-        },
-        {
-          "name": "Spellblade Aluriel",
-          "defeated": true
-        },
-        {
-          "name": "Star Augur Etraeus",
-          "defeated": true
-        },
-        {
-          "name": "High Botanist Tel'arn",
-          "defeated": true
-        },
-        {
-          "name": "Krosus",
-          "defeated": true
-        },
-        {
-          "name": "Tichondrius",
-          "defeated": true
-        },
-        {
-          "name": "Elisande",
-          "defeated": true
-        },
-        {
-          "name": "Gul'dan",
-          "defeated": true
+          "difficulty": "heroic",
+          "bosses": [
+            {
+              "name": "Skorpyron",
+              "defeated": true
+            },
+            {
+              "name": "Chronomatic Anomaly",
+              "defeated": true
+            },
+            {
+              "name": "Trilliax",
+              "defeated": true
+            },
+            {
+              "name": "Spellblade Aluriel",
+              "defeated": true
+            },
+            {
+              "name": "Star Augur Etraeus",
+              "defeated": true
+            },
+            {
+              "name": "High Botanist Tel'arn",
+              "defeated": true
+            },
+            {
+              "name": "Krosus",
+              "defeated": true
+            },
+            {
+              "name": "Tichondrius",
+              "defeated": true
+            },
+            {
+              "name": "Elisande",
+              "defeated": true
+            },
+            {
+              "name": "Gul'dan",
+              "defeated": true
+            }
+          ]
         }
       ]
-    }]
-  }, {
-    "name": "Trial of Valor",
-    "progress": [{
-      "difficulty": "heroic",
-      "bosses": [{
-        "name": "Odyn",
-        "defeated": true
-      }, {
-        "name": "Guarm",
-        "defeated": true
-      }, {
-        "name": "Helya",
-        "defeated": true
-      }]
-    }, {
-      "difficulty": "normal",
-      "bosses": [{
-        "name": "Odyn",
-        "defeated": true
-      }, {
-        "name": "Guarm",
-        "defeated": true
-      }, {
-        "name": "Helya",
-        "defeated": true
-      }]
-    }]
-  }, {
-    "name": "Emerald Nightmare",
-    "progress": [{
-      "difficulty": "mythic",
-      "bosses": [{
-        "name": "Nythendra",
-        "defeated": true
-      }, {
-        "name": "Elerethe Renferal",
-        "defeated": true
-      }, {
-        "name": "Il'gynoth",
-        "defeated": true
-      }, {
-        "name": "Ursoc",
-        "defeated": true
-      }, {
-        "name": "Dragons of Nightmare",
-        "defeated": true
-      }, {
-        "name": "Cenarius",
-        "defeated": true
-      }, {
-        "name": "Xavius",
-        "defeated": true
-      }]
-    }, {
-      "difficulty": "heroic",
-      "bosses": [{
-        "name": "Nythendra",
-        "defeated": true
-      }, {
-        "name": "Elerethe Renferal",
-        "defeated": true
-      }, {
-        "name": "Il'gynoth",
-        "defeated": true
-      }, {
-        "name": "Ursoc",
-        "defeated": true
-      }, {
-        "name": "Dragons of Nightmare",
-        "defeated": true
-      }, {
-        "name": "Cenarius",
-        "defeated": true
-      }, {
-        "name": "Xavius",
-        "defeated": true
-      }]
-    }]
-  }],
+    },
+    {
+      "name": "Trial of Valor",
+      "progress": [
+        {
+          "difficulty": "heroic",
+          "bosses": [
+            {
+              "name": "Odyn",
+              "defeated": true
+            },
+            {
+              "name": "Guarm",
+              "defeated": true
+            },
+            {
+              "name": "Helya",
+              "defeated": true
+            }
+          ]
+        },
+        {
+          "difficulty": "normal",
+          "bosses": [
+            {
+              "name": "Odyn",
+              "defeated": true
+            },
+            {
+              "name": "Guarm",
+              "defeated": true
+            },
+            {
+              "name": "Helya",
+              "defeated": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Emerald Nightmare",
+      "progress": [
+        {
+          "difficulty": "mythic",
+          "bosses": [
+            {
+              "name": "Nythendra",
+              "defeated": true
+            },
+            {
+              "name": "Elerethe Renferal",
+              "defeated": true
+            },
+            {
+              "name": "Il'gynoth",
+              "defeated": true
+            },
+            {
+              "name": "Ursoc",
+              "defeated": true
+            },
+            {
+              "name": "Dragons of Nightmare",
+              "defeated": true
+            },
+            {
+              "name": "Cenarius",
+              "defeated": true
+            },
+            {
+              "name": "Xavius",
+              "defeated": true
+            }
+          ]
+        },
+        {
+          "difficulty": "heroic",
+          "bosses": [
+            {
+              "name": "Nythendra",
+              "defeated": true
+            },
+            {
+              "name": "Elerethe Renferal",
+              "defeated": true
+            },
+            {
+              "name": "Il'gynoth",
+              "defeated": true
+            },
+            {
+              "name": "Ursoc",
+              "defeated": true
+            },
+            {
+              "name": "Dragons of Nightmare",
+              "defeated": true
+            },
+            {
+              "name": "Cenarius",
+              "defeated": true
+            },
+            {
+              "name": "Xavius",
+              "defeated": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "options": {
     "applications": false
   }

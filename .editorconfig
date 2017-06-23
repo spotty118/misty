@@ -5,6 +5,7 @@ end_of_line = lf
 insert_final_newline = true
 indent_style = tab
 indent_size = 1
+preserve_ternary_lines = true
 
 [{*.json,.babelrc}]
 indent_style = space

@@ -6,23 +6,25 @@ export function getGuildUrl(server, realm, name, page) {
 }
 
 export function getCharacterUrl(server, realm, name) {
-	return `http://${server.toLowerCase()}.battle.net/wow/en/character/${realm.toLowerCase()}/${encodeURIComponent(name)}/simple`
+	let locale = 'gb'
+
+	if (server.toLowerCase() === 'us') {
+		locale = 'us'
+	}
+
+	return `https://worldofwarcraft.com/en-${locale}/character/${realm.toLowerCase()}/${name}`
 }
 
 export function getData(options) {
-	let urls = getPages(options.pages).map(page => getGuildUrl(options.server, options.realm, options.name, page))
+	const urls = getPages(options.pages).map(page => getGuildUrl(options.server, options.realm, options.name, page))
 
 	return new Promise((resolve, reject) => {
-		Promise
-			.all(urls.map(getHTML))
-			.then(data => data.join())
-			.then(resolve)
-			.catch(reject)
+		Promise.all(urls.map(getHTML)).then(data => data.join()).then(resolve).catch(reject)
 	})
 }
 
 export function parseHTML(html, options) {
-	let $ = cheerio.load(html)
+	const $ = cheerio.load(html)
 
 	let people = {
 		leadership: [],
@@ -75,33 +77,26 @@ export function parseHTML(html, options) {
 
 export function getPortraits(people, options) {
 	return new Promise((resolve, reject) => {
-		let leadership = Promise.all(people.leadership.map(person => getPortrait(person, options)))
-		let members = Promise.all(people.members.map(person => getPortrait(person, options)))
+		const leadership = Promise.all(people.leadership.map(person => getPortrait(person, options)))
+		const members = Promise.all(people.members.map(person => getPortrait(person, options)))
 
-		Promise
-			.all([leadership, members])
-			.then(data => {
-				people.leadership = data.shift()
-				people.members = data.shift()
+		Promise.all([leadership, members]).then(data => {
+			people.leadership = data.shift()
+			people.members = data.shift()
 
-				resolve(people)
-			})
-			.catch(reject)
+			resolve(people)
+		}).catch(reject)
 	})
 }
 
 const getPortrait = function(person, options) {
 	return new Promise((resolve, reject) => {
-		const regex = new RegExp(/.profile-wrapper { background-image: url\("(.*?)"\); }/)
-
-		let url = getCharacterUrl(options.server, options.realm, person.name)
+		const url = getCharacterUrl(options.server, options.realm, person.name)
 
 		getHTML(url).then(html => {
-			let matches = html.match(regex)
+			const $ = cheerio.load(html)
 
-			if (matches) {
-				person.portrait = matches[1].replace(/profilemain/g, 'avatar')
-			}
+			person.portrait = $('a[data-analytics=export-character-image]').attr('href').replace('main', 'avatar')
 
 			resolve(person)
 		}).catch(reject)
@@ -155,9 +150,5 @@ const removeRank = function(person) {
 }
 
 export default function Guild(options) {
-	let people = getData(options)
-		.then(html => parseHTML(html, options))
-		.then(people => options.portraits ? getPortraits(people, options) : people)
-		.then(people => JSON.stringify(people, null, options.pretty && 2))
-		.then(json => console.log(json))
+	getData(options).then(html => parseHTML(html, options)).then(people => options.portraits ? getPortraits(people, options) : people).then(people => JSON.stringify(people, null, options.pretty && 2)).then(json => console.log(json))
 }

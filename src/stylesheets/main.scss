@@ -95,7 +95,7 @@ form {
 			background-size: 100% 100%;
 			height: 100%;
 			left: 0;
-			position: absolute;;
+			position: absolute;
 			top: 0;
 			width: 6.9em;
 		}
@@ -114,7 +114,7 @@ form {
 			background-size: auto 100%;
 			height: 100%;
 			left: 6.9em;
-			position: absolute;;
+			position: absolute;
 			right: 6.9em;
 			top: 0;
 		}
@@ -135,7 +135,7 @@ form {
 			background-size: 100% 100%;
 			height: 100%;
 			right: 0;
-			position: absolute;;
+			position: absolute;
 			top: 0;
 			width: 6.9em;
 		}
@@ -247,9 +247,7 @@ ul {
 		list-style: none;
 	}
 }
-
 // layout
-
 nav {
 	background: $background url('../img/interface/media-tab-bottom.png') center bottom no-repeat;
 	background-size: auto 100%;
@@ -277,7 +275,7 @@ nav {
 }
 
 header {
-	margin: 8em 0 4em 0;
+	margin: 8em 0 4em;
 }
 
 main {
@@ -340,9 +338,7 @@ footer {
 		}
 	}
 }
-
 // components
-
 .wrapper {
 	margin-left: auto;
 	margin-right: auto;
@@ -439,9 +435,7 @@ footer {
 		color: $greenBright;
 	}
 }
-
 // frame
-
 .frame {
 	padding: 0.55em;
 	position: relative;
@@ -511,12 +505,12 @@ footer {
 		}
 	}
 
-	&:not(.static):hover,
-	&.hover {
+	&.hover,
+	&:not(.static):hover {
 		.bottom,
-		.top,
 		.left,
-		.right {
+		.right,
+		.top {
 			&:after {
 				opacity: 1;
 			}
@@ -525,8 +519,8 @@ footer {
 
 	.bottom,
 	.top {
-		&:before,
-		&:after {
+		&:after,
+		&:before {
 			background-size: auto 100%;
 			content: '';
 			left: 0;
@@ -565,8 +559,8 @@ footer {
 
 	.left,
 	.right {
-		&:before,
-		&:after {
+		&:after,
+		&:before {
 			background-size: 100% auto;
 			bottom: 0;
 			content: '';
@@ -605,8 +599,8 @@ footer {
 
 	.corner-bottom,
 	.corner-top {
-		&:before,
-		&:after {
+		&:after,
+		&:before {
 			background-size: 100% 100%;
 			content: '';
 			height: 1.8em;
@@ -616,8 +610,8 @@ footer {
 	}
 
 	.corner-bottom {
-		&:before,
-		&:after {
+		&:after,
+		&:before {
 			bottom: -0.3em;
 		}
 
@@ -633,8 +627,8 @@ footer {
 	}
 
 	.corner-top {
-		&:before,
-		&:after {
+		&:after,
+		&:before {
 			top: -0.3em;
 		}
 
@@ -649,9 +643,7 @@ footer {
 		}
 	}
 }
-
 // responsive
-
 @media (max-width: 480px) {
 	hr {
 		height: 3em;
