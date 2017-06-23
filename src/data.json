@@ -145,6 +145,69 @@
     "about": "Damage"
   }],
   "progression": [{
+    "name": "Tomb of Sargeras",
+    "progress": [{
+      "difficulty": "heroic",
+      "bosses": [{
+        "name": "Goroth",
+        "defeated": true
+      }, {
+        "name": "Demonic Inquisition",
+        "defeated": true
+      }, {
+        "name": "Harjatan",
+        "defeated": true
+      }, {
+        "name": "Mistress Sassz'ine",
+        "defeated": false
+      }, {
+        "name": "Sisters of the Moon",
+        "defeated": false
+      }, {
+        "name": "The Desolate Host",
+        "defeated": false
+      }, {
+        "name": "Maiden of Vigilance",
+        "defeated": false
+      }, {
+        "name": "Fallen Avatar",
+        "defeated": false
+      }, {
+        "name": "Kil'jaeden",
+        "defeated": false
+      }]
+    }, {
+      "difficulty": "heroic",
+      "bosses": [{
+        "name": "Goroth",
+        "defeated": true
+      }, {
+        "name": "Demonic Inquisition",
+        "defeated": true
+      }, {
+        "name": "Harjatan",
+        "defeated": true
+      }, {
+        "name": "Mistress Sassz'ine",
+        "defeated": true
+      }, {
+        "name": "Sisters of the Moon",
+        "defeated": true
+      }, {
+        "name": "The Desolate Host",
+        "defeated": true
+      }, {
+        "name": "Maiden of Vigilance",
+        "defeated": true
+      }, {
+        "name": "Fallen Avatar",
+        "defeated": true
+      }, {
+        "name": "Kil'jaeden",
+        "defeated": true
+      }]
+    }]
+  }, {
     "name": "The Nighthold",
     "progress": [{
       "difficulty": "mythic",
