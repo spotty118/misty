@@ -214,7 +214,7 @@
           ]
         },
         {
-          "difficulty": "heroic",
+          "difficulty": "normal",
           "bosses": [
             {
               "name": "Goroth",
