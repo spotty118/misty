@@ -197,11 +197,11 @@
             },
             {
               "name": "The Desolate Host",
-              "defeated": false
+              "defeated": true
             },
             {
               "name": "Maiden of Vigilance",
-              "defeated": false
+              "defeated": true
             },
             {
               "name": "Fallen Avatar",
